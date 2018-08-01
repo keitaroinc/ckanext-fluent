@@ -1,0 +1,79 @@
+# Albanian translations for ckanext-fluent.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the ckanext-fluent
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-fluent 1.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-31 18:55+0200\n"
+"PO-Revision-Date: 2018-07-31 18:55+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sq\n"
+"Language-Team: sq <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/fluent/validators.py:88
+msgid "Failed to decode JSON string"
+msgstr "Dështoi të dekodojë vargun JSON të karaktereve"
+
+#: ckanext/fluent/validators.py:91
+msgid "Invalid encoding for JSON string"
+msgstr "Kodim i pavlefshëm i një vargu JSON të karaktereve"
+
+#: ckanext/fluent/validators.py:94 ckanext/fluent/validators.py:218
+msgid "expecting JSON object"
+msgstr "duke pritur objektin JSON"
+
+#: ckanext/fluent/validators.py:101 ckanext/fluent/validators.py:225
+#, python-format
+msgid "invalid type for language code: %r"
+msgstr "tipi i pavlefshëm për kodin e gjuhës: %r"
+
+#: ckanext/fluent/validators.py:105 ckanext/fluent/validators.py:138
+#: ckanext/fluent/validators.py:229 ckanext/fluent/validators.py:284
+#, python-format
+msgid "invalid language code: \"%s\""
+msgstr "kodin e pavlefshëm të gjuhës: \"%s\""
+
+#: ckanext/fluent/validators.py:108 ckanext/fluent/validators.py:232
+#, python-format
+msgid "invalid type for \"%s\" value"
+msgstr "tipi i pavlefshëm për vlera \"%s\""
+
+#: ckanext/fluent/validators.py:114
+#, python-format
+msgid "invalid encoding for \"%s\" value"
+msgstr "kodim i pavlefshëm për vlera \"%s\""
+
+#: ckanext/fluent/validators.py:121 ckanext/fluent/validators.py:267
+#, python-format
+msgid "Required language \"%s\" missing"
+msgstr "Gjuha e kërkuar \"%s\" mungon"
+
+#: ckanext/fluent/validators.py:149 ckanext/fluent/validators.py:314
+msgid "Missing value"
+msgstr "Vlera mungon"
+
+#: ckanext/fluent/validators.py:238
+msgid "invalid type for \"{lang}\" value item {num}"
+msgstr "tipi i pavlefshëm për artikullin e vlerës \"{lang}\" {num}"
+
+#: ckanext/fluent/validators.py:246
+msgid "expected UTF-8 encoding for \"{lang}\" value item {num}"
+msgstr "pritet që kodimi UTF-8 për artikullin e vlerave \"{lang}\" {num}"
+
+#: ckanext/fluent/validators.py:289
+msgid "invalid type"
+msgstr "tip i pavlefshëm"
+
+#: ckanext/fluent/validators.py:296
+msgid "expected UTF-8 encoding"
+msgstr "pritet UTF-8 kodues"
+

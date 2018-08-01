@@ -1,0 +1,79 @@
+# Macedonian translations for ckanext-fluent.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the ckanext-fluent
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-fluent 1.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-31 18:55+0200\n"
+"PO-Revision-Date: 2018-07-31 18:55+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: mk\n"
+"Language-Team: mk <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/fluent/validators.py:88
+msgid "Failed to decode JSON string"
+msgstr "Неуспешно декодирање на JSON низа од знаци"
+
+#: ckanext/fluent/validators.py:91
+msgid "Invalid encoding for JSON string"
+msgstr "Невалидно енкодирање на JSON низа од знаци"
+
+#: ckanext/fluent/validators.py:94 ckanext/fluent/validators.py:218
+msgid "expecting JSON object"
+msgstr "се очекува JSON објект"
+
+#: ckanext/fluent/validators.py:101 ckanext/fluent/validators.py:225
+#, python-format
+msgid "invalid type for language code: %r"
+msgstr "невалиден тип на јазичен код: %r"
+
+#: ckanext/fluent/validators.py:105 ckanext/fluent/validators.py:138
+#: ckanext/fluent/validators.py:229 ckanext/fluent/validators.py:284
+#, python-format
+msgid "invalid language code: \"%s\""
+msgstr "невалиден јазичен код \"%s\""
+
+#: ckanext/fluent/validators.py:108 ckanext/fluent/validators.py:232
+#, python-format
+msgid "invalid type for \"%s\" value"
+msgstr "невалиден тип за вредноста \"%s\""
+
+#: ckanext/fluent/validators.py:114
+#, python-format
+msgid "invalid encoding for \"%s\" value"
+msgstr "невалидно енкодирање за вредноста \"%s\""
+
+#: ckanext/fluent/validators.py:121 ckanext/fluent/validators.py:267
+#, python-format
+msgid "Required language \"%s\" missing"
+msgstr "Задолжителнителниот јазик \"%s\" недостасува"
+
+#: ckanext/fluent/validators.py:149 ckanext/fluent/validators.py:314
+msgid "Missing value"
+msgstr "Недостасува вредност"
+
+#: ckanext/fluent/validators.py:238
+msgid "invalid type for \"{lang}\" value item {num}"
+msgstr "невалиден тип за \"{lang}\" вредносна ставка {num}"
+
+#: ckanext/fluent/validators.py:246
+msgid "expected UTF-8 encoding for \"{lang}\" value item {num}"
+msgstr "се очекува UTF-8 енкодирање за \"{lang}\" вредносна ставка {num}"
+
+#: ckanext/fluent/validators.py:289
+msgid "invalid type"
+msgstr "невалиден тип"
+
+#: ckanext/fluent/validators.py:296
+msgid "expected UTF-8 encoding"
+msgstr "се очекува UTF-8 енкодирање"
+

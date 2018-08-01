@@ -1,14 +1,16 @@
 import ckan.plugins as p
 from ckan.plugins.toolkit import add_template_directory
+from ckan.lib.plugins import DefaultTranslation
 
 from ckanext.fluent import validators, helpers
 
 
 
-class FluentPlugin(p.SingletonPlugin):
+class FluentPlugin(p.SingletonPlugin, DefaultTranslation):
     p.implements(p.IValidators)
     p.implements(p.IConfigurer)
     p.implements(p.ITemplateHelpers)
+    p.implements(p.ITranslation)
 
     def update_config(self, config):
         """
